@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Rectangle
+{
+    internal class Rectangle
+    {
+        // Attributs
+        private int longueur;
+        private int largeur;
+
+
+    }
+}
