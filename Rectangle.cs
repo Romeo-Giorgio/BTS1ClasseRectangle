@@ -15,10 +15,10 @@ namespace Rectangle
         /// <summary>
         /// Obtient ou définit longueur
         /// </summary>
-        public int Longueur 
-        {  
-            get { return longueur; } 
-            set {  longueur = value; } 
+        public int Longueur
+        {
+            get { return longueur; }
+            set { longueur = value; }
         }
 
         /// <summary>
@@ -26,8 +26,19 @@ namespace Rectangle
         /// </summary>
         public int Largeur
         {
-            get {  return largeur; }
+            get { return largeur; }
             set { largeur = value; }
+        }
+
+        /// <summary>
+        /// Initialise un objet de type rectangle
+        /// </summary>
+        /// <param name="longueur"></param>
+        /// <param name="largeur"></param>
+        public Rectangle(int longueur, int largeur)
+        {
+            this.longueur = longueur;
+            this.largeur = largeur;
         }
     }
 }
